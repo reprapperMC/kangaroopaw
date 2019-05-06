@@ -1,0 +1,73 @@
+(Exported by FreeCAD)
+(Post Processor: linuxcnc_post)
+(Output Time:2019-04-25 13:45:42.932874)
+(begin preamble)
+G17 G54 G40 G49 G80 G90
+G21
+M8
+(begin operation: T4: 12mm Endmill)
+(machine: not set, mm/min)
+(T4: 12mm Endmill)
+M6 T4 G43 H4
+M3 S3000
+(finish operation: T4: 12mm Endmill)
+(begin operation: Profile_Edges)
+(machine: not set, mm/min)
+(Profile_Edges)
+(Compensated Tool Path. Diameter: 12.0)
+G0 Z5.000
+G0 X-4.100 Y2.012
+G0 Z3.000
+G1 X-4.100 Y2.012 Z-0.500 F30.000
+G1 X-4.100 Y-7.488 Z-0.500 F720.000
+G1 X-5.100 Y-7.488 Z-0.500 F720.000
+G1 X-5.100 Y2.012 Z-0.500 F720.000
+G1 X-4.100 Y2.012 Z-0.500 F720.000
+G1 X-4.100 Y2.012 Z-1.000 F30.000
+G1 X-4.100 Y-7.488 Z-1.000 F720.000
+G1 X-5.100 Y-7.488 Z-1.000 F720.000
+G1 X-5.100 Y2.012 Z-1.000 F720.000
+G1 X-4.100 Y2.012 Z-1.000 F720.000
+G1 X-4.100 Y2.012 Z-1.500 F30.000
+G1 X-4.100 Y-7.488 Z-1.500 F720.000
+G1 X-5.100 Y-7.488 Z-1.500 F720.000
+G1 X-5.100 Y2.012 Z-1.500 F720.000
+G1 X-4.100 Y2.012 Z-1.500 F720.000
+G1 X-4.100 Y2.012 Z-2.000 F30.000
+G1 X-4.100 Y-7.488 Z-2.000 F720.000
+G1 X-5.100 Y-7.488 Z-2.000 F720.000
+G1 X-5.100 Y2.012 Z-2.000 F720.000
+G1 X-4.100 Y2.012 Z-2.000 F720.000
+G1 X-4.100 Y2.012 Z-2.500 F30.000
+G1 X-4.100 Y-7.488 Z-2.500 F720.000
+G1 X-5.100 Y-7.488 Z-2.500 F720.000
+G1 X-5.100 Y2.012 Z-2.500 F720.000
+G1 X-4.100 Y2.012 Z-2.500 F720.000
+G1 X-4.100 Y2.012 Z-3.000 F30.000
+G1 X-4.100 Y-7.488 Z-3.000 F720.000
+G1 X-5.100 Y-7.488 Z-3.000 F720.000
+G1 X-5.100 Y2.012 Z-3.000 F720.000
+G1 X-4.100 Y2.012 Z-3.000 F720.000
+G0 Z5.000
+(finish operation: Profile_Edges)
+(begin operation: T17: 1/16"drill)
+(machine: not set, mm/min)
+(T17: 1/16"drill)
+M6 T17 G43 H17
+M3 S800
+(finish operation: T17: 1/16"drill)
+(begin operation: Drilling)
+(machine: not set, mm/min)
+(Drilling)
+(Begin Drilling)
+G0 Z5.000
+G90
+G98
+G83 X-4.860 Y-3.377 Z-7.000 F60.000 Q0.100 R3.000
+G80
+G0 Z5.000
+(finish operation: Drilling)
+(begin postamble)
+M05
+G17 G54 G90 G80 G40
+M2
