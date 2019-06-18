@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="5.152mm"
+   height="3mm"
+   viewBox="0 0 5.152 3"
+   version="1.1"
+   id="svg4932"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="ON_Text_Outline.svg">
+  <defs
+     id="defs4926">
+    <clipPath
+       id="clipPath18"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path20"
+         d="m 0,10.0195 h 2950 v 3041.99 H 0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath68"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path70"
+         d="M 0,3052.01 H 2950 V 10.0195 H 0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath1760"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1758"
+         d="m 45.746,1068.789 h 76.039 V 966.742 H 45.746 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath1770"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1768"
+         d="m 45,966 h 72 v 103 H 45 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath1710"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1708"
+         d="m 216.895,335.496 h 25.074 v -21.008 h -25.074 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath1720"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1718"
+         d="m 216,314 h 26 v 22 h -26 z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1546">
+      <path
+         d="m 850.168,1031.672 h 166.516 V 989.063 H 850.168 Z"
+         id="path1544"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1556">
+      <path
+         d="m 850,1009 h 167 v 23 H 850 Z"
+         id="path1554"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1566">
+      <path
+         d="m 850.168,1031.672 h 166.516 v -22.367 H 850.168 Z"
+         id="path1564"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1576">
+      <path
+         d="m 852,1009 h 165 v 23 H 852 Z"
+         id="path1574"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="32.89043"
+     inkscape:cx="1.6550265"
+     inkscape:cy="4.7743065"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4929">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-294)">
+    <g
+       aria-label="ON"
+       style="font-variant:normal;font-weight:600;font-size:4.24328136px;font-family:Titillium;-inkscape-font-specification:Titillium-Semibold;writing-mode:lr-tb;display:inline;fill:#0d86ea;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.3030915"
+       id="text5114">
+      <path
+         d="m 1.1838755,296.58842 c -0.56435642,0 -0.69589815,-0.34795 -0.69589815,-1.07355 0,-0.72136 0.13578501,-1.10326 0.69589815,-1.10326 0.5601131,0 0.6916549,0.3819 0.6916549,1.10326 0,0.73833 -0.1272985,1.07355 -0.6916549,1.07355 z m 0,0.41159 c 0.9080622,0 1.1796322,-0.49646 1.1796322,-1.48514 0,-0.97596 -0.27157,-1.51486 -1.1796322,-1.51486 C 0.27581329,294.00001 0,294.54315 0,295.51487 c 0,0.98019 0.27157,1.48514 1.1838755,1.48514 z"
+         style="stroke-width:0.3030915;fill:#0d86ea;fill-opacity:1"
+         id="path8436" />
+      <path
+         d="m 2.9119519,296.95334 h 0.4710042 v -2.49505 h 0.059406 l 0.903819,2.49505 h 0.8062234 v -2.90665 H 4.6814002 v 2.49081 H 4.617751 L 3.7351484,294.04669 H 2.9119519 Z"
+         style="stroke-width:0.3030915;fill:#0d86ea;fill-opacity:1"
+         id="path8438" />
+    </g>
+  </g>
+</svg>
