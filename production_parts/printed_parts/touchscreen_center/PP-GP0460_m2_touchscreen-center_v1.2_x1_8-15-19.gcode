@@ -81,6 +81,8 @@ M117 Mini 2 Printing...		; progress indicator message on LCD
 
 M221 S100 T0
 G92 E0
+M92 X100.6
+M92 Y100.6
 G1 F600 E-1
 ;LAYER_COUNT:25
 ;LAYER:0
