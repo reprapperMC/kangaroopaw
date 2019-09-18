@@ -12,6 +12,12 @@ class connectHardware():
         if self.ports['dfs50'].is_open:
             print("DFS50 connected")
 
+    def connect_dial_switch(self):
+        port = list(list_ports.grep("2341:0043"))[0].device
+        self.ports['dialswitch'] = serial.Serial(port, 115200)
+        if self.ports['dialswitch'].is_open:
+            print("Dial Switch connected")
+    
     def connect_actuator_controller(self):        
         port = list(list_ports.grep("RAMBo"))[0].device
         self.ports['actuator'] = serial.Serial(port, 120000)
