@@ -53,7 +53,7 @@ class connectHardware():
             for controller in list(list_ports.grep("RAMBo")):
                 port = controller.device
                 if controller.serial_number == "755303131313519152D0":
-                    self.ports['actuator'] = serial.Serial(port, 120000)
+                    self.ports['actuator'] = serial.Serial(port, 250000)
                     if self.ports['actuator'].is_open:
                         print("Actuator controller connected")
                     else:
@@ -67,7 +67,7 @@ class connectHardware():
             for controller in list(list_ports.grep("RAMBo")):
                 port = controller.device
                 if controller.serial_number != "755303131313519152D0":
-                    self.ports['printer'] = serial.Serial(port, 120000)
+                    self.ports['printer'] = serial.Serial(port, 250000)
                     if self.ports['printer'].is_open:
                         print("Printer controller connected")
                     else:
