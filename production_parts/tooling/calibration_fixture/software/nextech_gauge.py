@@ -2,7 +2,7 @@
 
 
 class nextechReading():
-    def serial_read_write(serial, command):
+    def serial_read_write(self, serial, command):
         serial.write((command + '\n').encode('utf-8'))
         return serial.readline()
 
@@ -22,6 +22,6 @@ class nextechReading():
 
         return reading_cleaned
 
-    def get_clean_reading(serial, command):
-        reading = serial_read_write(serial, command)
-        return clean_reading(reading)
+    def get_clean_force_reading(self, serial, command):
+        reading = self.serial_read_write(serial, command)
+        return self.clean_reading(reading)
