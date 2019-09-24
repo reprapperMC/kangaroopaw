@@ -2,9 +2,9 @@
 
 
 class nextechReading():
-    def serial_read_write(self, serial, command):
-        serial.write((command + '\n').encode('utf-8'))
-        return serial.readline()
+    def serial_read_write(self, devices, gauge, command):
+        devices.ports[gauge].write((command + '\n').encode('utf-8'))
+        return devices.ports[gauge].readline()
 
     def clean_reading(self, reading):
         reading = str(reading)
@@ -22,6 +22,6 @@ class nextechReading():
 
         return reading_cleaned
 
-    def get_clean_force_reading(self, serial, command):
-        reading = self.serial_read_write(serial, command)
+    def get_clean_force_reading(self, devices, gauge, command):
+        reading = self.serial_read_write(devices, gauge, command)
         return self.clean_reading(reading)
