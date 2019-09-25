@@ -2,6 +2,10 @@
 
 
 class nextechReading():
+    def zero_gauge(self, devices, gauge):
+        devices.ports[gauge].write(('z\n').encode('utf-8'))
+        devices.ports[gauge].reset_output_buffer()
+
     def serial_read_write(self, devices, gauge, command):
         devices.ports[gauge].write((command + '\n').encode('utf-8'))
         return devices.ports[gauge].readline()
