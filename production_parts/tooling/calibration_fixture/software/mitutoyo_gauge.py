@@ -1,6 +1,6 @@
 import threading
 
-class read_dial_gauge():
+class readDialGauge():
     def __init__(self):
         self.reading = ""
 
